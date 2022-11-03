@@ -115,7 +115,36 @@
 // }
 
 //7. Write a program to check whether roots of a given quadratic equation are real & distinct, real & equal or imaginary roots
-
+// #include <stdio.h>
+// int main()
+// {
+//     double a, b, c, d;
+//     printf("Enter the value of A:: ");
+//     scanf("%lf", &a);
+//     printf("Enter the value of B:: ");
+//     scanf("%lf", &b);
+//     printf("Enter the value of C:: ");
+//     scanf("%lf", &c);
+//     d = b * b - 4 * a * c;
+//     printf("Descriminant = %.2lf\n",d);
+//     if (d > 0)
+//     {
+//         printf("Real and distinct.\n");
+//     }
+//     else if (d == 0)
+//     {
+//         printf("Equal\n");
+//     }
+//     else if (d < 0)
+//     {
+//         printf("Imaginary\n");
+//     }
+//     else
+//     {
+//         printf("Something went wrong.");
+//     }
+//     return 0;
+// }
 
 // 8. Write a program to check whether a given year is a leap year or not.
 // #include <stdio.h>
